@@ -32,8 +32,7 @@ then
   done
 fi
 
-
-exec /usr/bin/java \
+exec /jlink-runtime/bin/java \
 	-Dsun.net.inetaddr.ttl=1800 \
 	-Dorg.globus.tcp.port.range=20000,25000 \
 	-Dorg.dcache.dcap.port=0 \
